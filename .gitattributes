@@ -1,1 +1,26 @@
 "* text=auto eol=lf" 
+
+# SQL files → LF
+*.sql text eol=lf
+
+# TypeScript & JavaScript → LF
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+
+# JSON, Markdown → LF
+*.json text eol=lf
+*.md text eol=lf
+
+# CSS, SCSS, HTML → LF
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+
+# Images → ne pas modifier
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
